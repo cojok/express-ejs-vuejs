@@ -1,6 +1,6 @@
 <template>
     <div class="cruel">
-        Cruel
+        Cruel Have fun
         <span>{{ who }}</span>
     </div>
 </template>
