@@ -119,27 +119,27 @@ eval("/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/index.js?!./public/javascripts/components/cruelWorld.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib??vue-loader-options!./public/javascripts/components/cruelWorld.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/cruelWorld.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/cruelWorld.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({ // This is important, I got errors when using `export default`\n    data () {\n        return {\n            who: \"World\"\n        }\n    },\n    mounted () {\n        setTimeout(() => {\n            console.log('We can use ES6 too!')\n        }, 1000)\n    }\n});\n\n\n//# sourceURL=webpack:///./public/javascripts/components/cruelWorld.vue?./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({ // This is important, I got errors when using `export default`\n    data () {\n        return {\n            who: \"World\"\n        }\n    },\n    mounted () {\n        setTimeout(() => {\n            console.log('We can use ES6 too!')\n        }, 1000)\n    }\n});\n\n\n//# sourceURL=webpack:///./resources/assets/js/components/cruelWorld.vue?./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./public/javascripts/components/cruelWorld.vue?vue&type=template&id=00fbfa5d&":
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./public/javascripts/components/cruelWorld.vue?vue&type=template&id=00fbfa5d& ***!
-  \*******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/cruelWorld.vue?vue&type=template&id=9c6b5548&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/assets/js/components/cruelWorld.vue?vue&type=template&id=9c6b5548& ***!
+  \********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", { staticClass: \"cruel\" }, [\n    _vm._v(\"\\n    Cruel\\n    \"),\n    _c(\"span\", [_vm._v(_vm._s(_vm.who))])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./public/javascripts/components/cruelWorld.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", { staticClass: \"cruel\" }, [\n    _vm._v(\"\\n    Cruel Have fun\\n    \"),\n    _c(\"span\", [_vm._v(_vm._s(_vm.who))])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./resources/assets/js/components/cruelWorld.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -177,61 +177,72 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./public/javascripts/components/cruelWorld.vue":
-/*!******************************************************!*\
-  !*** ./public/javascripts/components/cruelWorld.vue ***!
-  \******************************************************/
+/***/ "./resources/assets/js/components/cruelWorld.vue":
+/*!*******************************************************!*\
+  !*** ./resources/assets/js/components/cruelWorld.vue ***!
+  \*******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cruelWorld_vue_vue_type_template_id_00fbfa5d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cruelWorld.vue?vue&type=template&id=00fbfa5d& */ \"./public/javascripts/components/cruelWorld.vue?vue&type=template&id=00fbfa5d&\");\n/* harmony import */ var _cruelWorld_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cruelWorld.vue?vue&type=script&lang=js& */ \"./public/javascripts/components/cruelWorld.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _cruelWorld_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _cruelWorld_vue_vue_type_template_id_00fbfa5d___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _cruelWorld_vue_vue_type_template_id_00fbfa5d___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"public/javascripts/components/cruelWorld.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./public/javascripts/components/cruelWorld.vue?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cruelWorld_vue_vue_type_template_id_9c6b5548___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cruelWorld.vue?vue&type=template&id=9c6b5548& */ \"./resources/assets/js/components/cruelWorld.vue?vue&type=template&id=9c6b5548&\");\n/* harmony import */ var _cruelWorld_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cruelWorld.vue?vue&type=script&lang=js& */ \"./resources/assets/js/components/cruelWorld.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _cruelWorld_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _cruelWorld_vue_vue_type_template_id_9c6b5548___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _cruelWorld_vue_vue_type_template_id_9c6b5548___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"resources/assets/js/components/cruelWorld.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./resources/assets/js/components/cruelWorld.vue?");
 
 /***/ }),
 
-/***/ "./public/javascripts/components/cruelWorld.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************!*\
-  !*** ./public/javascripts/components/cruelWorld.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
+/***/ "./resources/assets/js/components/cruelWorld.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/assets/js/components/cruelWorld.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib??vue-loader-options!./cruelWorld.vue?vue&type=script&lang=js& */ \"./node_modules/vue-loader/lib/index.js?!./public/javascripts/components/cruelWorld.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./public/javascripts/components/cruelWorld.vue?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib??vue-loader-options!./cruelWorld.vue?vue&type=script&lang=js& */ \"./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/cruelWorld.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./resources/assets/js/components/cruelWorld.vue?");
 
 /***/ }),
 
-/***/ "./public/javascripts/components/cruelWorld.vue?vue&type=template&id=00fbfa5d&":
-/*!*************************************************************************************!*\
-  !*** ./public/javascripts/components/cruelWorld.vue?vue&type=template&id=00fbfa5d& ***!
-  \*************************************************************************************/
+/***/ "./resources/assets/js/components/cruelWorld.vue?vue&type=template&id=9c6b5548&":
+/*!**************************************************************************************!*\
+  !*** ./resources/assets/js/components/cruelWorld.vue?vue&type=template&id=9c6b5548& ***!
+  \**************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_template_id_00fbfa5d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./cruelWorld.vue?vue&type=template&id=00fbfa5d& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./public/javascripts/components/cruelWorld.vue?vue&type=template&id=00fbfa5d&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_template_id_00fbfa5d___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_template_id_00fbfa5d___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./public/javascripts/components/cruelWorld.vue?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_template_id_9c6b5548___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./cruelWorld.vue?vue&type=template&id=9c6b5548& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/assets/js/components/cruelWorld.vue?vue&type=template&id=9c6b5548&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_template_id_9c6b5548___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_cruelWorld_vue_vue_type_template_id_9c6b5548___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./resources/assets/js/components/cruelWorld.vue?");
 
 /***/ }),
 
-/***/ "./public/javascripts/main.js":
-/*!************************************!*\
-  !*** ./public/javascripts/main.js ***!
-  \************************************/
+/***/ "./resources/assets/js/main.js":
+/*!*************************************!*\
+  !*** ./resources/assets/js/main.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Vue = __webpack_require__(/*! vue/dist/vue.js */ \"./node_modules/vue/dist/vue.js\");\n\nVue.component(\"cruelWorld\", __webpack_require__(/*! ./components/cruelWorld.vue */ \"./public/javascripts/components/cruelWorld.vue\").default);\n\n\nconst app = new Vue({\n  el: \"#app\"\n});\n\n//# sourceURL=webpack:///./public/javascripts/main.js?");
+eval("var Vue = __webpack_require__(/*! vue/dist/vue.js */ \"./node_modules/vue/dist/vue.js\");\n\nVue.component(\"cruelWorld\", __webpack_require__(/*! ./components/cruelWorld.vue */ \"./resources/assets/js/components/cruelWorld.vue\").default);\n\n\nconst app = new Vue({\n  el: \"#app\"\n});\n\n//# sourceURL=webpack:///./resources/assets/js/main.js?");
+
+/***/ }),
+
+/***/ "./resources/assets/scss/main.scss":
+/*!*****************************************!*\
+  !*** ./resources/assets/scss/main.scss ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"stylesheets/style1.css\";\n\n//# sourceURL=webpack:///./resources/assets/scss/main.scss?");
 
 /***/ }),
 
 /***/ 0:
-/*!******************************************!*\
-  !*** multi ./public/javascripts/main.js ***!
-  \******************************************/
+/*!*****************************************************************************!*\
+  !*** multi ./resources/assets/js/main.js ./resources/assets/scss/main.scss ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! ./public/javascripts/main.js */\"./public/javascripts/main.js\");\n\n\n//# sourceURL=webpack:///multi_./public/javascripts/main.js?");
+eval("__webpack_require__(/*! ./resources/assets/js/main.js */\"./resources/assets/js/main.js\");\nmodule.exports = __webpack_require__(/*! ./resources/assets/scss/main.scss */\"./resources/assets/scss/main.scss\");\n\n\n//# sourceURL=webpack:///multi_./resources/assets/js/main.js_./resources/assets/scss/main.scss?");
 
 /***/ })
 
