@@ -1,8 +1,9 @@
-var Vue = require("vue/dist/vue.js");
-
-Vue.component("cruelWorld", require("./components/cruelWorld.vue").default);
-
+import Vue from 'vue'
+import store from './store/store.js'
+import App from './App.vue'
 
 const app = new Vue({
-  el: "#app"
+  store,
+  el: '#app',
+  render: h => h(App)
 });

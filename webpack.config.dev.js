@@ -14,9 +14,13 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.vue$/,
-        use: 'vue-loader'
+      { 
+        test: /\.js$/, 
+        use: 'babel-loader' 
+      },
+      { 
+        test: /\.vue$/, 
+        use: 'vue-loader' 
       },
       {
         test: /\.scss$/,
@@ -40,9 +44,23 @@ module.exports = {
 						loader: 'sass-loader'
 					}
 				]
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]?[hash]'
+        }
       }
     ]
   },
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js'
+    },
+    extensions: ['*', '.js', '.vue', '.json']
+  },
+  devtool: '#eval-source-map',
   plugins: [
     new VueLoaderPlugin()
   ]

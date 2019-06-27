@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "debug": "DEBUG=node:* ./bin/www",
-    "build:dev": "webpack --config webpack.config.dev.js"
+    "build:dev": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.dev.js --mode production"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -16,13 +17,18 @@
     "morgan": "~1.9.1",
     "node-sass-middleware": "0.11.0",
     "vue": "^2.6.10",
-    "vue-router": "^3.0.6"
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "autoprefixer": "^9.6.0",
+    "babel-loader": "^8.0.6",
     "css-loader": "^3.0.0",
     "extract-loader": "^3.1.0",
     "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
